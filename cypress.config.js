@@ -22,6 +22,6 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://store.briklshop.com/en/store',
     excludeSpecPattern: '**/examples/more_examples/*.spec.js',
-    specPattern: ["cypress/e2e/**/*.{js,jsx,ts,tsx}","cypress/integration/**/*.{js,jsx,ts,tsx}"],
+    specPattern: ["cypress/e2e/examples/*.{js,jsx,ts,tsx}","cypress/integration/**/*.{js,jsx,ts,tsx}"],
   },
 })
