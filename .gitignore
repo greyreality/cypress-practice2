@@ -1,0 +1,13 @@
+# OS metadata
+.DS_Store
+
+# Idea
+.idea
+
+# Results and reports
+report
+report*
+cypress/videos/
+cypress/screenshots/
+node_modules/
+*.log
