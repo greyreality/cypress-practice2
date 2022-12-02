@@ -3,7 +3,7 @@ import { loginPage } from "./pages/LoginPage"
 import { itemPage } from "./pages/ItemPage"
 import { cartPage } from "./pages/CartPage"
 
-describe("UI tests", () => {
+describe("Delete Item from a Cart - UI tests", () => {
   beforeEach("Open shop website", () => {
     cy.fixture("testdata").as("testdata");
     cy.visit("/salut-partners");

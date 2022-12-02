@@ -5,10 +5,12 @@ module.exports = defineConfig({
   defaultCommandTimout: 5000,
   execTimeout: 60000,
   taskTimeout: 60000,
-  pageLoadTimeout: 10000,
-  requestTimeout: 7000,
+  pageLoadTimeout: 15000,
+  requestTimeout: 15000,
   responseTimeout: 60000,
   projectId: 'm49jk9',
+  viewportWidth: 1280,
+  viewportHeight: 800,
   retries: {
     runMode: 0,
     openMode: 0,
@@ -22,6 +24,6 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://store.briklshop.com/en/store',
     excludeSpecPattern: '**/examples/more_examples/*.spec.js',
-    specPattern: ["cypress/e2e/examples/*.{js,jsx,ts,tsx}","cypress/integration/**/*.{js,jsx,ts,tsx}"],
+    specPattern: ["cypress/tests/examples/*.{js,jsx,ts,tsx}"],
   },
 })

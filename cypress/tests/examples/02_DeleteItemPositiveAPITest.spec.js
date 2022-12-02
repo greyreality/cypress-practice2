@@ -5,7 +5,7 @@ import { cartPage } from "./pages/CartPage"
 
 let ItemId
 
-describe("Positive API tests", () => {
+describe("Delete Item from a Cart - Positive API tests", () => {
   beforeEach("Add item into a cart", () => {
     cy.fixture("testdata").as("testdata");
     cy.get("@testdata").then((testdata) => {
